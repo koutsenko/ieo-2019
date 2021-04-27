@@ -1,0 +1,21 @@
+.main {
+  color: white;
+  height: 100%;
+  margin-right: 0.5em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  user-select: none;
+  white-space: nowrap;
+}
+
+/* Vertical alignment https://stackoverflow.com/a/33221185 */
+.main:before {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.transparent {
+  background-color: transparent;
+}

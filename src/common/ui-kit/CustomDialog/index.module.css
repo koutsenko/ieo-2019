@@ -1,0 +1,36 @@
+.dialog {
+  border: 1px solid red;
+  min-height: 400px;
+  max-height: 400px;
+  min-width: 600px;
+}
+
+.dialogActions,
+.dialogContent {
+  background-color: black;
+}
+
+.dialogContent {
+  overflow: hidden;
+  padding: 0;
+  position: relative;
+}
+
+.dialogContent > :first-child {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.padding {
+  padding: 10px;
+}
+
+.toolbar {
+  display: flex;
+  height: inherit;
+  justify-content: space-between;
+  min-height: inherit;
+}

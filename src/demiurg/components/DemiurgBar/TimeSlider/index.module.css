@@ -1,0 +1,41 @@
+.root {
+  width: 300;
+  display: flex;
+  flex: 1;
+}
+
+.slider {
+  padding: 22px 0px;
+}
+
+.center {
+  flex: 1;
+  padding: 0 5px;
+}
+
+.center,
+.left,
+.right {
+  text-align: center;
+}
+
+.btn {
+  color: yellow;
+  background-color: blue;
+}
+
+.label {
+  background: lightsteelblue;
+}
+
+.current {
+  background: yellow;
+}
+
+.center,
+.left,
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

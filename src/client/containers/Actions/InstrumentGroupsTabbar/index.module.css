@@ -1,0 +1,25 @@
+.indicator {
+  display: none;
+}
+
+.tabs-flexContainer {
+  height: 25px;
+  padding: 0 1em;
+}
+
+.tabbutton {
+  background-color: #313250;
+  line-height: 15px;
+  margin: 0 0.5em;
+  min-height: 25px;
+  min-width: 0;
+  transform: skew(30deg, 0);
+}
+
+.tabbutton > * {
+  transform: skew(-30deg, 0);
+}
+
+.selected {
+  background-color: #ff9d2e !important;
+}

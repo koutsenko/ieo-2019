@@ -1,0 +1,10 @@
+.message {
+  position: fixed;
+  text-align: center;
+  top: 6em;
+  width: 100%;
+}
+
+.spinner {
+  margin: 1em 0;
+}

@@ -1,0 +1,38 @@
+.tables {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}
+
+.table-container {
+  background: black;
+  color: white;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  height: 100%;
+}
+
+.table-container > :first-child {
+  padding-left: 10px;
+  line-height: 25px;
+}
+
+.tables-n-balance {
+  background: black;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.table-container-main {
+  flex: 1;
+  height: 100%;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1em;
+}

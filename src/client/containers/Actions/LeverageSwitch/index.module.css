@@ -1,0 +1,10 @@
+.leverage {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.leverage-switch {
+  display: flex;
+  align-items: center;
+}

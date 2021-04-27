@@ -1,0 +1,14 @@
+.balance {
+  align-items: center;
+  background: black;
+}
+
+.balanceText {
+  color: white;
+  white-space: nowrap;
+}
+
+.label {
+  color: #ff9e29;
+  margin-right: 10px;
+}

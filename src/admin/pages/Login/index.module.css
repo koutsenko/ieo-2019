@@ -1,0 +1,14 @@
+.back {
+  background: linear-gradient(0deg, red, #000000);
+  flex: 1;
+}
+
+.logo {
+  margin-left: 65px;
+  margin-top: 50px;
+  position: absolute;
+}
+
+.form {
+  margin-top: 275px;
+}

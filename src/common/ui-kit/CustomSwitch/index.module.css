@@ -1,0 +1,18 @@
+.container {
+  align-items: center;
+  display: inline-flex;
+}
+
+.switchBase {
+  color: gray;
+}
+
+/* .root {
+  padding: 0;
+}
+
+.root svg {
+  color: orange;
+  height: 20px;
+  width: 20px;
+} */

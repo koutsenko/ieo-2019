@@ -1,0 +1,11 @@
+.news-heading {
+  align-items: stretch;
+  /* border-bottom: 1px solid gray; */
+  border-top: 1px solid gray;
+  display: flex;
+  padding: 0 1em;
+}
+
+.news-heading > * {
+  flex: 1;
+}

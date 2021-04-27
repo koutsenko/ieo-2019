@@ -1,0 +1,12 @@
+.demo {
+  background-color: rgb(50, 50, 50);
+}
+
+.row {
+  display: flex;
+}
+
+.row > * {
+  flex: 1;
+  padding: 1em;
+}

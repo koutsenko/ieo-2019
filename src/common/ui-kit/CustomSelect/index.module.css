@@ -1,0 +1,19 @@
+.menu {
+  background: black;
+  border: 1px solid gray;
+  color: white;
+}
+
+.root {
+  background-color: orange;
+  line-height: 21px;
+}
+
+.root > svg {
+  height: 21px;
+  width: 21px;
+}
+
+.select {
+  padding: 0 5px;
+}

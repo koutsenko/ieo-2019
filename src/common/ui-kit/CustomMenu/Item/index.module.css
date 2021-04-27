@@ -1,0 +1,16 @@
+.menu-item {
+  min-height: 1em;
+  padding: 0.25em 1em;
+}
+
+.menu-item:hover {
+  background-color: gray;
+}
+
+.menu-item-selected {
+  background-color: transparent !important;
+}
+
+.menu-item-selected:hover {
+  background-color: gray !important;
+}

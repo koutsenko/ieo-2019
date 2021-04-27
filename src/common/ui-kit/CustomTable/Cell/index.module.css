@@ -1,0 +1,40 @@
+.cell {
+  margin: 0 5px;
+  max-width: 0; /* minimal width with text truncating */
+  overflow: hidden; /* overflow */
+  text-overflow: ellipsis; /* dots if overflowed */
+  white-space: nowrap; /* no next-line */
+  color: white;
+  border-bottom: none;
+}
+
+/**
+ * Scrolling logic here: http://jsfiddle.net/wA7Jm/1
+ */
+.head div {
+  position: absolute; /* header fixed part */
+  margin-top: -25px; /* take reserved place */
+  user-select: none;
+
+  padding-top: 2.5px;
+  padding-bottom: 2.5px;
+}
+
+.head div,
+.cell:not(.head) {
+  padding-left: 5px;
+  padding-right: 5px;
+  border-left: 1px solid #4d4d4d;
+}
+
+.cell:not(.head) {
+  color: #ff9e29;
+}
+
+.cellContent {
+  display: flex;
+}
+
+.selected {
+  color: white !important;
+}

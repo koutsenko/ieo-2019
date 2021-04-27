@@ -1,0 +1,5 @@
+export const GAME_STARTED = "GAME_STARTED";
+export const GAME_STOPPED = "GAME_STOPPED";
+export const GAME_SUSPENDED = "GAME_SUSPENDED";
+export const GAME_RESUMED = "GAME_RESUMED";
+export const GAME_CHANGED = "GAME_CHANGED";

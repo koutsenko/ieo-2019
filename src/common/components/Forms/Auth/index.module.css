@@ -1,0 +1,40 @@
+.hint {
+  margin-top: 1em;
+}
+
+.container {
+  margin: 0 auto;
+  width: 540px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+.form > * {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.manContainer {
+  width: 50%;
+  text-align: center;
+}
+
+.manLogo {
+  height: 135px;
+  width: 135px;
+  user-select: none;
+}
+
+.paper {
+  background-color: transparent;
+  border-radius: 1em;
+  padding: 1em 2em;
+}
+
+.submit {
+  margin-top: 1em;
+}

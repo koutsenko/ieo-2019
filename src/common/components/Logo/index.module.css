@@ -1,0 +1,8 @@
+.logo {
+  height: 90px;
+  width: 300px;
+}
+
+.logo > img {
+  user-select: none;
+}

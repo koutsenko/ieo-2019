@@ -1,0 +1,29 @@
+.icon {
+  width: 16px;
+  height: 16px;
+  margin: 2px 8px 0 0;
+  cursor: pointer;
+}
+
+.row {
+  border: 1px solid transparent;
+  height: 24px;
+}
+
+.selected {
+  outline: 1px solid #156bff;
+  border: 1px solid #156bff;
+  background: linear-gradient(
+    180deg,
+    #030e3c,
+    #012d4d
+  ) !important; /* override row striping style */
+}
+/*
+.selected:not-first() td {
+  border-top: #156bff 1px solid;
+} */
+
+.selectable:hover {
+  background-color: rgb(0, 32, 64) !important; /* override row striping style */
+}

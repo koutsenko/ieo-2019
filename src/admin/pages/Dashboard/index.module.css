@@ -1,0 +1,24 @@
+* {
+  --sidebar-width: 13em;
+}
+
+.container {
+  display: flex;
+  padding-left: var(--sidebar-width);
+}
+
+.icon {
+  min-width: 28px;
+}
+
+.drawerPaper {
+  position: unset;
+  white-space: nowrap;
+  width: var(--sidebar-width);
+}
+
+.r {
+  position: fixed;
+  left: 0;
+  height: 100%;
+}

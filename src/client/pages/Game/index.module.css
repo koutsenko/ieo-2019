@@ -1,0 +1,52 @@
+.state-n-actions-container {
+  background: linear-gradient(180deg, #202a32, #020305);
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  flex: 1;
+}
+
+.bottom-margin {
+  bottom: 0;
+  background: white;
+  width: 100%;
+}
+
+.bottom-margin-full {
+  min-height: 195px;
+  transition: min-height ease 0.25s;
+}
+
+.bottom-margin-collapsed {
+  min-height: 25px;
+  transition: min-height ease 0.25s;
+}
+
+.tabs {
+  display: inline-block;
+  margin: 0 1em;
+}
+
+.indicator {
+  background: red !important;
+}
+
+.tabs,
+.flexContainer,
+.flexContainer > button,
+.scroller {
+  height: inherit;
+  min-height: inherit;
+}
+
+.flexContainer > button {
+  padding: 0;
+}
+
+.flexed-right {
+  align-items: baseline;
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+  height: inherit;
+}

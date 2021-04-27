@@ -1,0 +1,18 @@
+.container {
+  text-align: right;
+}
+
+/* .container > * {
+  margin-right: 1em;
+  width: 8em;
+} */
+
+.balanceText {
+  color: white;
+  white-space: nowrap;
+}
+
+.label {
+  color: #ff9e29;
+  margin-right: 10px;
+}

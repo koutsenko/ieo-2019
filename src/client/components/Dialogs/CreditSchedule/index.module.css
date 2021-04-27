@@ -1,0 +1,15 @@
+.scheduleContent {
+  height: 100%;
+}
+
+.scheduleHeader {
+  height: 150px;
+}
+
+.scheduleTable {
+  height: calc(100% - 150px);
+}
+
+.scheduleTable > * {
+  height: 100%;
+}

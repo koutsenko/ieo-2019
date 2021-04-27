@@ -1,0 +1,26 @@
+.container {
+  align-items: stretch;
+  display: flex;
+}
+
+.filters {
+  align-items: center;
+  display: flex;
+}
+
+.filters > * {
+  margin: 0 1em;
+}
+
+.news-button {
+  border-right: 1px solid gray;
+  color: #ff9e29;
+  cursor: pointer;
+  display: flex;
+}
+
+.news-button-inner {
+  align-items: center;
+  display: flex;
+  margin-right: 0.5em;
+}

@@ -1,0 +1,13 @@
+/**
+ * It's override. No time to fix common client and admin layout.
+ */
+
+:global(body) {
+  min-height: 100%;
+  height: unset;
+}
+
+:global(#root),
+:global(#root) > * {
+  min-height: 100vh;
+}
