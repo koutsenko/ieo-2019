@@ -44,7 +44,7 @@
     "typeface-roboto": "0.0.54",
     "typeface-roboto-mono": "0.0.54",
     "typescript": "^3.5.2",
-    "ws": "^6.2.1"
+    "ws": "^7.4.6"
   },
   "scripts": {
     "start": "react-scripts start",
